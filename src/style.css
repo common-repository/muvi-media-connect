@@ -1,0 +1,521 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fb;
+    box-sizing: border-box;
+}
+.mb5{
+    margin-bottom: 5px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb25{
+    margin-bottom: 25px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+/* margin top */
+.mt5{
+    margin-top: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.mt30{
+    margin-top: 30px;
+}
+/* padding bottom */
+.pb5{
+    padding-bottom: 5px;
+}
+.pb10{
+    padding-bottom: 10px;
+}
+.pb15{
+    padding-bottom: 15px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.pb25{
+    padding-bottom: 25px;
+}
+.pb30{
+    padding-bottom: 30px;
+}
+/* padding top */
+.pt5{
+    padding-top: 5px;
+}
+.pt10{
+    padding-top: 10px;
+}
+.pt15{
+    padding-top: 15px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.pt25{
+    padding-top: 25px;
+}
+.pt30{
+    padding-top: 30px;
+}
+.leftbar{
+    width: 165px;
+    background-color: #1D2327;
+    height: 100vh;
+    float: left;
+}
+.right_col{
+    width: calc(100% - 165px);
+    padding: 15px;
+    float: left;
+    overflow: hidden;
+    background-color: #F6F7FB;
+    padding: 15px;
+}
+.fulladdSetting{
+    background-color: #FFF;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 30px;
+}
+.fulladdSetting .addSetTitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #303049;
+}
+.fulladdSetting .addSetSubTitle{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303049;
+    margin-top: 15px;
+}
+.fulladdSetting .addSetDesc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.06px;
+    color: #7B8794;
+    margin-top: 6px;
+}
+.fulladdSetting .addSetDesc a{
+    color: #02AAF2;
+    text-decoration: none;
+}
+.fulladdSetting .customLabel{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303049;
+}
+.fulladdSetting .customLabel span{
+    color: #E10000;
+}
+.fulladdSetting .customGroup{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.fulladdSetting .customGroup input{
+    background: #FFFFFF;
+    border: 1px solid #DBE1EA;
+    border-radius: 4px;
+    width: 370px;
+    height: 32px;
+    outline: none;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303049;
+}
+.fulladdSetting .customGroup input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303049;
+}
+.fulladdSetting .customGroup .indicator{
+    position: relative;
+}
+.fulladdSetting .customGroup .indicator .box{
+    width: 220px;
+    height: 37px;
+    left: 0px;
+    top: -38px;
+    position: absolute;
+    background: #333333;
+    border-radius: 2px;
+    display: none;
+}
+.fulladdSetting .customGroup .indicator:hover .box{
+    display: block;
+}
+.fulladdSetting .customGroup .indicator .box .underBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.fulladdSetting .customGroup .indicator .box .underBox:after{
+    content: " ";
+    position: absolute;
+    left: 3px;
+    bottom: -6px;
+    border-top: 6px solid #333333;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: none;
+}
+.fulladdSetting .customGroup .indicator .box .underBox .text{
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.saveSettingBtn{
+    width: 109px;
+    height: 32px;
+    background-color: #18A0FB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fullMediaConnect{
+    background-color: #FFF;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 50px 150px;
+}
+.fullMediaConnect .mediaBox{
+    background: #FFFFFF;
+    border: 1px solid #353535;
+    border-radius: 2px;
+    padding: 25px 20px;
+}
+.fullMediaConnect .mediaBox .topTitle{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 16px;
+    color: #353535;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.fullMediaConnect .mediaBox .uploadText{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #353535;
+}
+.fullMediaConnect .mediaBox .middleOne{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 15px;
+}
+.fullMediaConnect .mediaBox .middleOne .uploadBtn{
+    background: #417DB1;
+    border-radius: 2px;
+    width: 150px;
+    height: 36px;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.fullMediaConnect .mediaBox .learnText{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #353535;
+}
+.fullMediaConnect .mediaBox .learnText a{
+    text-decoration: none;
+}
+.fullMediaConnect .mediaBox .middleOne .embedUrl{
+    width: calc(100% - 86px);
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    outline: none;
+    padding: 15px;
+}
+.fullMediaConnect .mediaBox .middleOne .embedBtn{
+    background: #417DB1;
+    height: 36px;
+    width: 76px;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.fullMediaConnect .mediaBox .middleOne .updateCls{
+    width: calc(100% - 142px);
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    outline: none;
+    padding: 15px;
+}
+.fullMediaConnect .mediaBox .middleOne .muviMediaBtn{
+    background: #417DB1;
+    height: 36px;
+    width: 145px;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0px 2px 2px 0px;
+    margin-left: -8px;
+    vertical-align: top;
+}
+
+/* modal */
+.uploadPopup .modal-dialog{
+    max-width: 1048px !important;
+    min-width: 1048px !important;
+    height: auto;
+}
+.uploadPopup .modal-content{
+  padding: 30px 40px;
+}
+.uploadPopup .modal-header{
+    padding: 0;
+    border: none;
+}
+.uploadPopup .modal-title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #202223;
+}
+.uploadPopup .modal-header button{
+    background-color: unset;
+    border: none;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+.uploadPopup .modal-body{
+    padding: 25px 0px 0px 0px;
+    border: none;
+}
+.uploadPopup .inputSearchCls{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    width: 100%;
+    height: 38px;
+    outline: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #6D7175;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667Z' stroke='%23202223' stroke-width='1.33' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M14.0001 14L11.1001 11.1' stroke='%23202223' stroke-width='1.33' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ");
+    background-repeat: no-repeat;
+    background-position-x: 1%;
+    background-position-y: 9px;
+    padding: 0px 15px 0px 35px;
+}
+
+.uploadPopup .nav-tabs{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.uploadPopup .nav-tabs .nav-link{
+    padding: 0px 0px 15px 0px;
+    margin-right: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7B8794;
+}
+
+.uploadPopup .nav-tabs .nav-link.active{
+    border-bottom: 3px solid #18A0FB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px 0px 15px 0px;
+    color: #202223;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.uploadPopup .tab-details{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0px 0px 15px 0px;
+    width: 100%;
+    height: 210px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.uploadPopup .tab-details::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+  
+.uploadPopup .tab-details::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+  
+.uploadPopup .tab-details::-webkit-scrollbar-thumb {
+    background-color: #BABEC3;
+    border-radius: 4px;
+}
+.uploadPopup .select-package-checkbox {
+    height: 100%;
+    position: relative;
+  }
+  
+  .uploadPopup .select-package-checkbox input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    z-index: 1;
+}
+  
+.uploadPopup .select-package-checkbox label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    cursor: pointer;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100px; */
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    padding: 0;
+}
+
+.uploadPopup .select-package-checkbox input:checked ~ label {
+    border: 1px solid #09B9F2;;
+}
+  
+.uploadPopup .select-package-checkbox input:checked ~ label::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: #18A0FB;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1.6001 3.59998L3.3501 5.34998L6.8501 1.59998' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position-x: 75%;
+    background-position-y: 1px;
+}
+.uploadPopup .item{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.uploadPopup .item img{
+    width: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+.uploadPopup .item figure{
+    color: #303049;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0px;
+    background-color: #F7F8FF;
+    padding: 7px;
+}
+.uploadPopup .item .placeHolder{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.uploadPopup .modal-footer{
+    border: none;
+    padding: 0;
+}
+.uploadPopup .insertBtn:disabled{
+    border: 1px solid #DBE1EA;
+    border-radius: 4px;
+    color: #202223;
+    font-weight: 400;
+    font-size: 14px;
+    width: 80px;
+    height: 38px;
+    background-color: #FFFFFF;   
+}
+.uploadPopup .insertBtn{
+    font-weight: 400;
+    font-size: 14px;
+    width: 80px;
+    height: 38px;
+    color: #FFFFFF;
+    background: #0498FA;
+    border: 1px solid #0498FA;
+    border-radius: 4px;
+}
